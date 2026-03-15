@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipes — Tastes of Africa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><div class="nav-logo-icon"></div><div class="nav-logo-text">Tastes <em>of</em> Africa</div></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="recipes.html" class="active">Recipes</a></li>
+      <li><a href="regions.html">Regions</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-header" style="padding-bottom:1.8rem;">
+  <h1>Recipe Archive</h1>
+  <p class="sub">Curated by Onyx — Rwanda · South Africa · Somalia · Ghana</p>
+</div>
+
+<div class="parchment-bg sec-pad">
+  <div class="container">
+
+    <div class="rfb">
+      <button class="rfb-btn active" data-filter="all">All Recipes</button>
+      <button class="rfb-btn" data-filter="rwanda">Rwanda</button>
+      <button class="rfb-btn" data-filter="southafrica">South Africa</button>
+      <button class="rfb-btn" data-filter="somalia">Somalia</button>
+      <button class="rfb-btn" data-filter="ghana">Ghana</button>
+    </div>
+
+    <div class="recipe-cards">
+
+      <div class="rcard" data-region="rwanda">
+        <div class="rcard-img-wrap">
+          <span class="rcard-country">Rwanda</span>
+          <img class="rcard-img" src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=75" alt="Isombe">
+        </div>
+        <div class="rcard-body">
+          <h3 class="rcard-title">Isombe</h3>
+          <p class="rcard-desc">Cassava leaves slow-cooked with <mark>eggplant</mark> and <mark>groundnut paste</mark> — Rwanda's most comforting dish.</p>
+          <a href="isombe.html" class="btn btn-gold" style="font-size:0.72rem;padding:0.58rem 1.3rem;margin-bottom:0.6rem;">View Recipe</a>
+        </div>
+        <div class="rcard-footer">
+          <span class="rcard-meta">45 min · 4 servings · Vegan</span>
+          <button class="fav-btn" data-id="isombe" style="width:auto;padding:0.3rem 0.7rem;margin:0;"><span class="heart">♡</span><span class="fav-label">Save</span></button>
+        </div>
+      </div>
+
+      <div class="rcard" data-region="rwanda">
+        <div class="rcard-img-wrap">
+          <span class="rcard-country">Rwanda</span>
+          <img class="rcard-img" src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=75" alt="Rwandan Brochettes">
+        </div>
+        <div class="rcard-body">
+          <h3 class="rcard-title">Rwandan Brochettes</h3>
+          <p class="rcard-desc">Charcoal-grilled goat skewers marinated with <mark>garlic</mark>, <mark>ginger</mark>, and chili. Rwanda's ubiquitous street food.</p>
+          <a href="isombe.html" class="btn btn-gold" style="font-size:0.72rem;padding:0.58rem 1.3rem;margin-bottom:0.6rem;">View Recipe</a>
+        </div>
+        <div class="rcard-footer">
+          <span class="rcard-meta">30 min · 4 servings</span>
+          <button class="fav-btn" data-id="brochettes" style="width:auto;padding:0.3rem 0.7rem;margin:0;"><span class="heart">♡</span><span class="fav-label">Save</span></button>
+        </div>
+      </div>
+
+      <div class="rcard" data-region="southafrica">
+        <div class="rcard-img-wrap">
+          <span class="rcard-country">South Africa</span>
+          <img class="rcard-img" src="images/south_africa.jpg" alt="South African Braai">
+        </div>
+        <div class="rcard-body">
+          <h3 class="rcard-title">South African Braai</h3>
+          <p class="rcard-desc"><mark>Boerewors</mark> coils, sosaties, and lamb chops on open hardwood fire — South Africa's most sacred social tradition.</p>
+          <a href="braai.html" class="btn btn-gold" style="font-size:0.72rem;padding:0.58rem 1.3rem;margin-bottom:0.6rem;">View Recipe</a>
+        </div>
+        <div class="rcard-footer">
+          <span class="rcard-meta">1.5 hrs · 6 servings</span>
+          <button class="fav-btn" data-id="braai" style="width:auto;padding:0.3rem 0.7rem;margin:0;"><span class="heart">♡</span><span class="fav-label">Save</span></button>
+        </div>
+      </div>
+
+      <div class="rcard" data-region="southafrica">
+        <div class="rcard-img-wrap">
+          <span class="rcard-country">South Africa</span>
+          <img class="rcard-img" src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=75" alt="Bobotie">
+        </div>
+        <div class="rcard-body">
+          <h3 class="rcard-title">Bobotie</h3>
+          <p class="rcard-desc">Spiced mince baked under a golden <mark>turmeric egg custard</mark>. South Africa's beloved Cape Malay national dish.</p>
+          <a href="braai.html" class="btn btn-gold" style="font-size:0.72rem;padding:0.58rem 1.3rem;margin-bottom:0.6rem;">View Recipe</a>
+        </div>
+        <div class="rcard-footer">
+          <span class="rcard-meta">80 min · 4 servings</span>
+          <button class="fav-btn" data-id="bobotie" style="width:auto;padding:0.3rem 0.7rem;margin:0;"><span class="heart">♡</span><span class="fav-label">Save</span></button>
+        </div>
+      </div>
+
+      <div class="rcard" data-region="somalia">
+        <div class="rcard-img-wrap">
+          <span class="rcard-country">Somalia</span>
+          <img class="rcard-img" src="images/suqaar.jpg" alt="Somali Suqaar">
+        </div>
+        <div class="rcard-body">
+          <h3 class="rcard-title">Somali Suqaar</h3>
+          <p class="rcard-desc">Quick-sautéed diced meat with aromatic <mark>xawaash spice</mark>, onions, and peppers. Somalia's most loved everyday dish.</p>
+          <a href="suqaar.html" class="btn btn-gold" style="font-size:0.72rem;padding:0.58rem 1.3rem;margin-bottom:0.6rem;">View Recipe</a>
+        </div>
+        <div class="rcard-footer">
+          <span class="rcard-meta">25 min · 4 servings</span>
+          <button class="fav-btn" data-id="suqaar" style="width:auto;padding:0.3rem 0.7rem;margin:0;"><span class="heart">♡</span><span class="fav-label">Save</span></button>
+        </div>
+      </div>
+
+      <div class="rcard" data-region="somalia">
+        <div class="rcard-img-wrap">
+          <span class="rcard-country">Somalia</span>
+          <img class="rcard-img" src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=600&q=75" alt="Bariis Iskukaris">
+        </div>
+        <div class="rcard-body">
+          <h3 class="rcard-title">Bariis Iskukaris</h3>
+          <p class="rcard-desc">Somalia's fragrant celebration rice — basmati with <mark>cardamom</mark>, <mark>clove</mark>, cinnamon, and golden caramelised onion.</p>
+          <a href="suqaar.html" class="btn btn-gold" style="font-size:0.72rem;padding:0.58rem 1.3rem;margin-bottom:0.6rem;">View Recipe</a>
+        </div>
+        <div class="rcard-footer">
+          <span class="rcard-meta">55 min · 6 servings</span>
+          <button class="fav-btn" data-id="bariis" style="width:auto;padding:0.3rem 0.7rem;margin:0;"><span class="heart">♡</span><span class="fav-label">Save</span></button>
+        </div>
+      </div>
+
+      <div class="rcard" data-region="ghana">
+        <div class="rcard-img-wrap">
+          <span class="rcard-country">Ghana</span>
+          <img class="rcard-img" src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=600&q=75" alt="Kelewele">
+        </div>
+        <div class="rcard-body">
+          <h3 class="rcard-title">Kelewele</h3>
+          <p class="rcard-desc">Spiced fried plantains with <mark>ginger</mark>, <mark>cayenne</mark>, and clove — Ghana's iconic Accra street food, caramelised to perfection.</p>
+          <a href="kelewele.html" class="btn btn-gold" style="font-size:0.72rem;padding:0.58rem 1.3rem;margin-bottom:0.6rem;">View Recipe</a>
+        </div>
+        <div class="rcard-footer">
+          <span class="rcard-meta">25 min · 4 servings · Vegan</span>
+          <button class="fav-btn" data-id="kelewele" style="width:auto;padding:0.3rem 0.7rem;margin:0;"><span class="heart">♡</span><span class="fav-label">Save</span></button>
+        </div>
+      </div>
+
+      <div class="rcard" data-region="ghana">
+        <div class="rcard-img-wrap">
+          <span class="rcard-country">Ghana</span>
+          <img class="rcard-img" src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=75" alt="Waakye">
+        </div>
+        <div class="rcard-body">
+          <h3 class="rcard-title">Waakye</h3>
+          <p class="rcard-desc">Rice and beans cooked with <mark>sorghum leaves</mark>, giving a beautiful deep reddish-purple hue. Accra's beloved breakfast staple.</p>
+          <a href="kelewele.html" class="btn btn-gold" style="font-size:0.72rem;padding:0.58rem 1.3rem;margin-bottom:0.6rem;">View Recipe</a>
+        </div>
+        <div class="rcard-footer">
+          <span class="rcard-meta">60 min · 6 servings</span>
+          <button class="fav-btn" data-id="waakye" style="width:auto;padding:0.3rem 0.7rem;margin:0;"><span class="heart">♡</span><span class="fav-label">Save</span></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="parchment-bg" style="padding:2rem 0;border-top:1px solid var(--gold-border);"><div class="container"><div class="newsletter-inner"><span class="newsletter-label" style="font-family:var(--font-ui);font-size:0.9rem;">Email:</span><input type="email" class="newsletter-input" placeholder="Enter your email" /><button class="btn btn-red">Subscribe</button></div></div></div>
+<footer><div class="container"><div class="footer-grid"><div><a href="index.html" class="footer-logo">Tastes <em>of</em> Africa</a><p class="footer-desc">Curated by Onyx · onyx@tasteofafrica.com</p></div><div class="footer-col"><h4>Recipes</h4><ul><li><a href="isombe.html">Rwandan Isombe</a></li><li><a href="braai.html">South African Braai</a></li><li><a href="suqaar.html">Somali Suqaar</a></li><li><a href="kelewele.html">Ghanaian Kelewele</a></li></ul></div><div class="footer-col"><h4>Countries</h4><ul><li><a href="regions.html#rwanda">Rwanda</a></li><li><a href="regions.html#southafrica">South Africa</a></li><li><a href="regions.html#somalia">Somalia</a></li><li><a href="regions.html#ghana">Ghana</a></li></ul></div><div class="footer-col"><h4>Onyx Studio</h4><ul><li><a href="about.html">About Onyx</a></li><li><a href="contact.html">Contact</a></li></ul></div></div><div class="footer-divider"></div><div class="footer-bottom"><span class="footer-copy">© 2024 Tastes of Africa — Curated by Onyx</span><div class="social-icons"><a href="#" class="social-icon">f</a><a href="#" class="social-icon">t</a><a href="#" class="social-icon">in</a><a href="mailto:onyx@tasteofafrica.com" class="social-icon">@</a></div></div></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

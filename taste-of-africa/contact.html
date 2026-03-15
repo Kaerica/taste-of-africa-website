@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Tastes of Africa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><div class="nav-logo-icon"></div><div class="nav-logo-text">Tastes <em>of</em> Africa</div></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="recipes.html">Recipes</a></li>
+      <li><a href="regions.html">Regions</a></li><li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- PAGE HEADER (navy, textured — matching screenshot) -->
+<div class="page-header" style="padding-bottom:2.5rem;">
+  <h1>About Us</h1>
+  <p class="sub">Celebrating African Culinary Heritage</p>
+</div>
+
+<!-- PARCHMENT FORM BODY (matching screenshot exactly) -->
+<div class="parchment-bg" style="padding:3rem 2rem 0;">
+
+  <div style="text-align:center;margin-bottom:0.5rem;">
+    <h2 style="font-family:var(--font-head);font-size:2rem;font-weight:700;color:var(--text-dark);">Contact Us</h2>
+    <div class="gold-divider" style="max-width:360px;margin:0.4rem auto 0;"><span>Get In Touch</span></div>
+  </div>
+
+  <div style="max-width:700px;margin:2rem auto 0;">
+
+    <!-- FORM CARD (matching screenshot: bordered box on parchment) -->
+    <div class="contact-form-wrap">
+      <form id="contactForm" novalidate>
+
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="" autocomplete="name" />
+          <div class="form-error" id="nameErr">Please enter your name.</div>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="" autocomplete="email" />
+          <div class="form-error" id="emailErr">Please enter a valid email address.</div>
+        </div>
+
+        <div class="form-row">
+          <label for="country">Country</label>
+          <select id="country" name="country" class="form-control">
+            <option value="">Select</option>
+            <option>Rwanda</option>
+            <option>South Africa</option>
+            <option>Somalia</option>
+            <option>Ghana</option>
+            <option>Nigeria</option>
+            <option>Kenya</option>
+            <option>Ethiopia</option>
+            <option>Tanzania</option>
+            <option>Uganda</option>
+            <option>Senegal</option>
+            <option>Morocco</option>
+            <option>Egypt</option>
+            <option>Zimbabwe</option>
+            <option>Botswana</option>
+            <option>United Kingdom</option>
+            <option>United States</option>
+            <option>France</option>
+            <option>Canada</option>
+            <option>Germany</option>
+            <option>Netherlands</option>
+            <option>Australia</option>
+            <option>Brazil</option>
+            <option>Jamaica</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="form-control" rows="5" placeholder=""></textarea>
+          <div class="form-error" id="msgErr">Your message must be more than 20 characters.</div>
+        </div>
+
+        <div style="text-align:center;margin-top:0.5rem;">
+          <button type="submit" class="btn btn-red" style="font-size:0.9rem;padding:0.85rem 2.5rem;letter-spacing:0.06em;">Send Message</button>
+        </div>
+
+      </form>
+
+      <!-- SUCCESS STATE -->
+      <div class="success-msg" id="successMsg">
+        <div class="check">✦</div>
+        <h3>Message Sent to Onyx!</h3>
+        <p>Thank you, <strong id="successName"></strong>. Onyx will reply to <span id="successEmail"></span> within 48 hours.</p>
+        <a href="index.html" class="btn btn-gold" style="margin-top:1.5rem;">Back to Home</a>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div style="text-align:center;padding:2.5rem 0 2rem;border-top:1px solid var(--gold-border);margin-top:2.5rem;">
+      <h3 style="font-family:var(--font-head);font-size:1.15rem;color:var(--text-dark);font-weight:700;margin-bottom:0.8rem;">Subscribe to Our Newsletter</h3>
+      <div class="newsletter-inner">
+        <span class="newsletter-label" style="font-family:var(--font-ui);font-size:0.9rem;">Email:</span>
+        <input type="email" class="newsletter-input" placeholder="Enter your email" />
+        <button class="btn btn-red">Subscribe</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div><a href="index.html" class="footer-logo">Tastes <em>of</em> Africa</a><p class="footer-desc">Curated by Onyx · <strong style="color:var(--gold-light);">onyx@tasteofafrica.com</strong></p></div>
+      <div class="footer-col"><h4>Recipes</h4><ul><li><a href="isombe.html">Rwandan Isombe</a></li><li><a href="braai.html">South African Braai</a></li><li><a href="suqaar.html">Somali Suqaar</a></li><li><a href="kelewele.html">Ghanaian Kelewele</a></li></ul></div>
+      <div class="footer-col"><h4>Countries</h4><ul><li><a href="regions.html#rwanda">Rwanda</a></li><li><a href="regions.html#southafrica">South Africa</a></li><li><a href="regions.html#somalia">Somalia</a></li><li><a href="regions.html#ghana">Ghana</a></li></ul></div>
+      <div class="footer-col"><h4>Onyx Studio</h4><ul><li><a href="about.html">About Onyx</a></li><li><a href="contact.html">Contact</a></li><li><a href="mailto:onyx@tasteofafrica.com">Email Onyx</a></li></ul></div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2024 Tastes of Africa — Curated by Onyx. All rights reserved.</span>
+      <div class="social-icons"><a href="#" class="social-icon">f</a><a href="#" class="social-icon">t</a><a href="#" class="social-icon">in</a><a href="mailto:onyx@tasteofafrica.com" class="social-icon">@</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  let ok = true;
+  document.querySelectorAll('.form-error').forEach(el => el.classList.remove('show'));
+
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const msg = document.getElementById('message').value.trim();
+
+  if (!name) { document.getElementById('nameErr').classList.add('show'); ok = false; }
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { document.getElementById('emailErr').classList.add('show'); ok = false; }
+  if (msg.length < 20) { document.getElementById('msgErr').classList.add('show'); ok = false; }
+
+  if (ok) {
+    document.getElementById('successName').textContent = name;
+    document.getElementById('successEmail').textContent = 'onyx@tasteofafrica.com';
+    this.style.opacity = '0';
+    setTimeout(() => {
+      this.classList.add('hidden');
+      document.getElementById('successMsg').classList.add('show');
+    }, 300);
+  }
+});
+</script>
+</body>
+</html>

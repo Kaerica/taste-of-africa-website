@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>South African Braai — Tastes of Africa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><div class="nav-logo-icon"></div><div class="nav-logo-text">Tastes <em>of</em> Africa</div></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="recipes.html" class="active">Recipes</a></li>
+      <li><a href="regions.html">Regions</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>Southern Africa</h1>
+  <p class="sub">A Southern African Classic</p>
+  <div class="tab-bar">
+    <button class="tab-btn" onclick="location.href='suqaar.html'">North Africa</button>
+    <button class="tab-btn" onclick="location.href='kelewele.html'">West Africa</button>
+    <button class="tab-btn" onclick="location.href='isombe.html'">East Africa</button>
+    <button class="tab-btn active">Southern Africa</button>
+    <button class="tab-btn tab-next" onclick="location.href='recipes.html'">&rsaquo;&rsaquo;&rsaquo;</button>
+  </div>
+</div>
+
+<div class="parchment-bg" style="padding:0;">
+  <div class="recipe-layout">
+    <div>
+      <img class="recipe-main-img" src="images/south_africa.jpg" alt="South African Braai">
+
+      <div class="countries-box parchment-bg">
+        <h3>Southern Africa Countries</h3>
+        <ul><li>South Africa</li><li>Botswana</li><li>Namibia</li><li>Eswatini</li></ul>
+      </div>
+
+      <div class="recipe-banner">
+        <span class="rh">♥</span>
+        <h2>South African Braai <span style="font-size:0.7rem;font-weight:400;color:rgba(255,255,255,0.38);font-family:var(--font-ui);letter-spacing:0.12em;text-transform:uppercase;margin-left:0.4rem;">South Africa</span></h2>
+        <span class="origin">Southern Africa</span>
+      </div>
+
+      <div class="rcbox">
+        <div class="rcbox-head">About This Dish</div>
+        <div class="rcbox-body">
+          <p>The braai is South Africa's most powerful cultural institution — far more than a barbecue. Around a fire, South Africans of every background gather. The centrepiece is always <mark>boerewors</mark> — farmer's sausage made from beef, pork, and coriander seed, coiled onto the grid.</p>
+          <p>Alongside sit lamb chops, <mark>sosaties</mark> (marinated skewers with apricot jam and curry), and pap (stiff maize porridge). Heritage Day is unofficially National Braai Day — a fire-lit celebration of South African identity.</p>
+        </div>
+      </div>
+
+      <div class="rcbox">
+        <div class="expand-row" id="ingrToggle" onclick="toggleExp('ingrBody','ingrToggle')">
+          <span class="elabel"><span style="color:var(--gold);">▶</span> Ingredients <span style="font-weight:400;color:rgba(255,255,255,0.38);font-size:0.68rem;margin-left:0.4rem;">(Expandable Details Section)</span></span>
+          <span class="earrow">▾</span>
+        </div>
+        <div class="expand-body" id="ingrBody">
+          <ul>
+            <li>1kg boerewors sausage, coiled</li>
+            <li>6 lamb loin chops</li>
+            <li>500g boneless lamb for sosaties</li>
+            <li>Sosatie marinade: apricot jam, curry powder, wine vinegar</li>
+            <li>Braai spice: coriander, smoked paprika, garlic salt, black pepper</li>
+            <li>2 cups maize meal for pap</li>
+            <li>Chakalaka (spiced bean relish) to serve</li>
+            <li>Hardwood for the fire — never gas</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rcbox">
+        <div class="rcbox-head">Cooking Instructions</div>
+        <div class="step"><div class="step-n">1</div><div class="step-t">Light hardwood in your braai. Allow 45–60 minutes to burn down to a solid bed of glowing coals. Hold your hand 15cm above the grid — it should be very hot but tolerable for 3 seconds.</div></div>
+        <div class="step"><div class="step-n">2</div><div class="step-t">Thread sosatie cubes onto skewers with dried apricots and onion. Marinate overnight in apricot jam, curry powder, grated onion, and wine vinegar.</div></div>
+        <div class="step"><div class="step-n">3</div><div class="step-t">Place boerewors coils on the grid — never pierce them. Grill 8–10 min per side. Season lamb chops with braai spice and grill 4–5 min per side. Rotate sosaties every 3 minutes.</div></div>
+        <div class="step"><div class="step-n">4</div><div class="step-t">Cook pap by stirring maize meal into boiling salted water for 20 minutes. Serve all meats from the grid with pap, chakalaka, and braai bread grilled over the coals.</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="aside-video">
+        <video controls poster="images/south_africa.jpg">
+          <source src="images/braai.mp4" type="video/mp4" />
+        </video>
+        <div class="aside-video-label"><span class="play-ico">▶</span> South African Braai</div>
+      </div>
+
+      <div class="aside-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7380988.8!2d22.9375!3d-30.5595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c34a689d9ee1251%3A0xe85d630c1fa4e8a0!2sSouth%20Africa!5e0!3m2!1sen!2sus!4v1699000000011" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="nutrition-box">
+        <div class="nutrition-head">Country of Origin</div>
+        <div class="nut-row"><span>Calories</span><span class="nut-val">580 kcal</span></div>
+        <div class="nut-row"><span>Carbs</span><span class="nut-val">28g</span></div>
+        <div class="nut-row"><span>Protein</span><span class="nut-val">42g</span></div>
+        <div class="nut-row"><span>Fat</span><span class="nut-val">34g</span></div>
+        <div class="nut-row"><span>Iron</span><span class="nut-val">4.8mg</span></div>
+      </div>
+
+      <div class="ingr-box">
+        <div class="ingr-box-head">Ingredients</div>
+        <ul>
+          <li>1kg boerewors sausage</li>
+          <li>6 lamb loin chops</li>
+          <li>500g lamb for sosaties</li>
+          <li>Apricot jam, curry powder</li>
+          <li>Wine vinegar, dried apricots</li>
+          <li>Braai spice rub</li>
+          <li>2 cups maize meal</li>
+          <li>Chakalaka relish</li>
+          <li>Hardwood for fire</li>
+        </ul>
+      </div>
+
+      <button class="fav-btn" data-id="braai"><span class="heart">♡</span><span class="fav-label">Save to My Collection</span></button>
+    </div>
+  </div>
+</div>
+
+<div class="parchment-bg" style="padding:2rem 0;"><div class="container"><div class="newsletter-inner"><span class="newsletter-label" style="font-family:var(--font-ui);font-size:0.9rem;">Email:</span><input type="email" class="newsletter-input" placeholder="Enter your email" /><button class="btn btn-red">Subscribe</button></div></div></div>
+<footer><div class="container"><div class="footer-grid"><div><a href="index.html" class="footer-logo">Tastes <em>of</em> Africa</a><p class="footer-desc">Curated by Onyx · onyx@tasteofafrica.com</p></div><div class="footer-col"><h4>Recipes</h4><ul><li><a href="isombe.html">Rwandan Isombe</a></li><li><a href="braai.html">South African Braai</a></li><li><a href="suqaar.html">Somali Suqaar</a></li><li><a href="kelewele.html">Ghanaian Kelewele</a></li></ul></div><div class="footer-col"><h4>Countries</h4><ul><li><a href="regions.html#rwanda">Rwanda</a></li><li><a href="regions.html#southafrica">South Africa</a></li><li><a href="regions.html#somalia">Somalia</a></li><li><a href="regions.html#ghana">Ghana</a></li></ul></div><div class="footer-col"><h4>Onyx Studio</h4><ul><li><a href="about.html">About Onyx</a></li><li><a href="contact.html">Contact</a></li></ul></div></div><div class="footer-divider"></div><div class="footer-bottom"><span class="footer-copy">© 2024 Tastes of Africa — Curated by Onyx</span><div class="social-icons"><a href="#" class="social-icon">f</a><a href="#" class="social-icon">t</a><a href="#" class="social-icon">in</a><a href="mailto:onyx@tasteofafrica.com" class="social-icon">@</a></div></div></div></footer>
+<script src="js/script.js"></script>
+<script>function toggleExp(b,r){document.getElementById(b).classList.toggle('open');document.getElementById(r).classList.toggle('open');}</script>
+</body>
+</html>

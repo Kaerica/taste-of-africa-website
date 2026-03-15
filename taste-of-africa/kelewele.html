@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelewele — Tastes of Africa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><div class="nav-logo-icon"></div><div class="nav-logo-text">Tastes <em>of</em> Africa</div></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="recipes.html" class="active">Recipes</a></li>
+      <li><a href="regions.html">Regions</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>West Africa</h1>
+  <p class="sub">A West African Classic</p>
+  <div class="tab-bar">
+    <button class="tab-btn" onclick="location.href='suqaar.html'">North Africa</button>
+    <button class="tab-btn active">West Africa</button>
+    <button class="tab-btn" onclick="location.href='isombe.html'">East Africa</button>
+    <button class="tab-btn" onclick="location.href='braai.html'">Southern Africa</button>
+    <button class="tab-btn tab-next" onclick="location.href='recipes.html'">&rsaquo;&rsaquo;&rsaquo;</button>
+  </div>
+</div>
+
+<div class="parchment-bg" style="padding:0;">
+  <div class="recipe-layout">
+    <div>
+      <img class="recipe-main-img" src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=900&q=85" alt="Ghanaian Kelewele">
+
+      <div class="countries-box parchment-bg">
+        <h3>West African Countries</h3>
+        <ul><li>Ghana</li><li>Nigeria</li><li>Côte d'Ivoire</li><li>Senegal</li></ul>
+      </div>
+
+      <div class="recipe-banner">
+        <span class="rh">♥</span>
+        <h2>Kelewele <span style="font-size:0.7rem;font-weight:400;color:rgba(255,255,255,0.38);font-family:var(--font-ui);letter-spacing:0.12em;text-transform:uppercase;margin-left:0.4rem;">Ghana</span></h2>
+        <span class="origin">West Africa</span>
+      </div>
+
+      <div class="rcbox">
+        <div class="rcbox-head">About This Dish</div>
+        <div class="rcbox-body">
+          <p>Kelewele is Ghana's most beloved street food — fried ripe plantains marinated in a punchy spice mix of <mark>ginger</mark>, <mark>cayenne pepper</mark>, and ground cloves. The result: sweet caramelised plantain with a fiery, fragrant crust that is completely addictive.</p>
+          <p>Sold from roadside stalls all over Accra every evening, kelewele is eaten as a snack or side. The key is very ripe plantains — almost black-skinned — where the natural sugar creates that unmistakable golden caramelisation.</p>
+        </div>
+      </div>
+
+      <div class="rcbox">
+        <div class="expand-row" id="ingrToggle" onclick="toggleExp('ingrBody','ingrToggle')">
+          <span class="elabel"><span style="color:var(--gold);">▶</span> Ingredients <span style="font-weight:400;color:rgba(255,255,255,0.38);font-size:0.68rem;margin-left:0.4rem;">(Expandable Details Section)</span></span>
+          <span class="earrow">▾</span>
+        </div>
+        <div class="expand-body" id="ingrBody">
+          <ul>
+            <li>3 very ripe plantains (mostly black skin)</li>
+            <li>2 tsp fresh ginger, grated (or 1 tsp ground)</li>
+            <li>1 tsp cayenne pepper</li>
+            <li>¼ tsp ground cloves</li>
+            <li>½ tsp salt</li>
+            <li>Optional: pinch of anise or grains of selim (hwentia)</li>
+            <li>Vegetable oil for deep frying</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rcbox">
+        <div class="rcbox-head">Cooking Instructions</div>
+        <div class="step"><div class="step-n">1</div><div class="step-t">Peel plantains and cut into 2cm chunks or diagonal slices. Place in a bowl.</div></div>
+        <div class="step"><div class="step-n">2</div><div class="step-t">Mix ginger, cayenne, cloves, and salt. Pour over plantain pieces and toss to coat every surface. Marinate 15–30 minutes for deeper flavour.</div></div>
+        <div class="step"><div class="step-n">3</div><div class="step-t">Heat vegetable oil in a deep pan to 175°C (350°F). Fry in small batches for 3–4 minutes turning once, until deep golden-brown and caramelised. Never overcrowd the pan.</div></div>
+        <div class="step"><div class="step-n">4</div><div class="step-t">Remove with a slotted spoon and drain on paper towels. Serve immediately while hot and crispy. Traditionally served with roasted peanuts or alongside beans stew.</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="aside-video">
+        <video controls poster="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=400&q=70">
+          <source src="images/kelewele.mp4" type="video/mp4" />
+        </video>
+        <div class="aside-video-label"><span class="play-ico">▶</span> Ghanaian Kelewele</div>
+      </div>
+
+      <div class="aside-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4026560.0!2d-1.0232!3d7.9465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfd75acda8dad6c7%3A0x54900174516b6b4!2sGhana!5e0!3m2!1sen!2sus!4v1699000000013" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="nutrition-box">
+        <div class="nutrition-head">Country of Origin</div>
+        <div class="nut-row"><span>Calories</span><span class="nut-val">280 kcal</span></div>
+        <div class="nut-row"><span>Carbs</span><span class="nut-val">52g</span></div>
+        <div class="nut-row"><span>Protein</span><span class="nut-val">2g</span></div>
+        <div class="nut-row"><span>Fat</span><span class="nut-val">9g</span></div>
+        <div class="nut-row"><span>Vitamin C</span><span class="nut-val">24%</span></div>
+        <div class="nut-row"><span>Vitamin A</span><span class="nut-val">23%</span></div>
+      </div>
+
+      <div class="ingr-box">
+        <div class="ingr-box-head">Ingredients</div>
+        <ul>
+          <li>3 very ripe plantains</li>
+          <li>2 tsp fresh ginger, grated</li>
+          <li>1 tsp cayenne pepper</li>
+          <li>¼ tsp ground cloves</li>
+          <li>½ tsp salt</li>
+          <li>Pinch of anise (optional)</li>
+          <li>Vegetable oil for frying</li>
+          <li>Roasted peanuts to serve</li>
+        </ul>
+      </div>
+
+      <button class="fav-btn" data-id="kelewele"><span class="heart">♡</span><span class="fav-label">Save to My Collection</span></button>
+    </div>
+  </div>
+</div>
+
+<div class="parchment-bg" style="padding:2rem 0;"><div class="container"><div class="newsletter-inner"><span class="newsletter-label" style="font-family:var(--font-ui);font-size:0.9rem;">Email:</span><input type="email" class="newsletter-input" placeholder="Enter your email" /><button class="btn btn-red">Subscribe</button></div></div></div>
+<footer><div class="container"><div class="footer-grid"><div><a href="index.html" class="footer-logo">Tastes <em>of</em> Africa</a><p class="footer-desc">Curated by Onyx · onyx@tasteofafrica.com</p></div><div class="footer-col"><h4>Recipes</h4><ul><li><a href="isombe.html">Rwandan Isombe</a></li><li><a href="braai.html">South African Braai</a></li><li><a href="suqaar.html">Somali Suqaar</a></li><li><a href="kelewele.html">Ghanaian Kelewele</a></li></ul></div><div class="footer-col"><h4>Countries</h4><ul><li><a href="regions.html#rwanda">Rwanda</a></li><li><a href="regions.html#southafrica">South Africa</a></li><li><a href="regions.html#somalia">Somalia</a></li><li><a href="regions.html#ghana">Ghana</a></li></ul></div><div class="footer-col"><h4>Onyx Studio</h4><ul><li><a href="about.html">About Onyx</a></li><li><a href="contact.html">Contact</a></li></ul></div></div><div class="footer-divider"></div><div class="footer-bottom"><span class="footer-copy">© 2024 Tastes of Africa — Curated by Onyx</span><div class="social-icons"><a href="#" class="social-icon">f</a><a href="#" class="social-icon">t</a><a href="#" class="social-icon">in</a><a href="mailto:onyx@tasteofafrica.com" class="social-icon">@</a></div></div></div></footer>
+<script src="js/script.js"></script>
+<script>function toggleExp(b,r){document.getElementById(b).classList.toggle('open');document.getElementById(r).classList.toggle('open');}</script>
+</body>
+</html>

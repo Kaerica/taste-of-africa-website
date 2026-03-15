@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isombe — Tastes of Africa</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><div class="nav-logo-icon"></div><div class="nav-logo-text">Tastes <em>of</em> Africa</div></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li><li><a href="recipes.html" class="active">Recipes</a></li>
+      <li><a href="regions.html">Regions</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>East Africa</h1>
+  <p class="sub">An East African Classic</p>
+  <div class="tab-bar">
+    <button class="tab-btn" onclick="location.href='suqaar.html'">North Africa</button>
+    <button class="tab-btn" onclick="location.href='kelewele.html'">West Africa</button>
+    <button class="tab-btn active">East Africa</button>
+    <button class="tab-btn" onclick="location.href='braai.html'">Southern Africa</button>
+    <button class="tab-btn tab-next" onclick="location.href='recipes.html'">&rsaquo;&rsaquo;&rsaquo;</button>
+  </div>
+</div>
+
+<div class="parchment-bg" style="padding:0;">
+  <div class="recipe-layout">
+
+    <!-- MAIN -->
+    <div>
+      <img class="recipe-main-img" src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=900&q=85" alt="Rwandan Isombe">
+
+      <div class="countries-box parchment-bg">
+        <h3>East African Countries</h3>
+        <ul><li>Rwanda</li><li>Burundi</li><li>Uganda</li><li>DR Congo</li></ul>
+      </div>
+
+      <div class="recipe-banner">
+        <span class="rh">♥</span>
+        <h2>Isombe <span style="font-size:0.7rem;font-weight:400;color:rgba(255,255,255,0.38);font-family:var(--font-ui);letter-spacing:0.12em;text-transform:uppercase;margin-left:0.4rem;">Rwanda</span></h2>
+        <span class="origin">East Africa</span>
+      </div>
+
+      <div class="rcbox">
+        <div class="rcbox-head">About This Dish</div>
+        <div class="rcbox-body">
+          <p>Isombe is one of Rwanda's most cherished national dishes — pounded cassava leaves cooked with eggplant and thickened with <mark>groundnut paste</mark>. Silky, earthy, and deeply nourishing.</p>
+          <p>Traditionally served alongside ugali or boiled sweet potato. The addition of dried smoked fish is common in households near Lake Kivu, adding a layer of depth that transforms the dish entirely.</p>
+        </div>
+      </div>
+
+      <div class="rcbox">
+        <div class="expand-row" id="ingrToggle" onclick="toggleExp('ingrBody','ingrToggle')">
+          <span class="elabel"><span style="color:var(--gold);">▶</span> Ingredients <span style="font-weight:400;color:rgba(255,255,255,0.38);font-size:0.68rem;margin-left:0.4rem;">(Expandable Details Section)</span></span>
+          <span class="earrow">▾</span>
+        </div>
+        <div class="expand-body" id="ingrBody">
+          <ul>
+            <li>500g fresh or frozen cassava leaves</li>
+            <li>1 medium eggplant, cubed</li>
+            <li>3 tbsp groundnut paste (peanut butter)</li>
+            <li>1 large onion, finely chopped</li>
+            <li>4 cloves garlic, minced</li>
+            <li>2 tbsp palm oil or vegetable oil</li>
+            <li>1 cup vegetable stock</li>
+            <li>Optional: 50g dried smoked fish</li>
+            <li>Salt and black pepper to taste</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rcbox">
+        <div class="rcbox-head">Cooking Instructions</div>
+        <div class="step"><div class="step-n">1</div><div class="step-t">Wash cassava leaves, strip from stems, and pound or blend coarsely. If frozen, thaw and drain well.</div></div>
+        <div class="step"><div class="step-n">2</div><div class="step-t">Heat oil in a large pot. Fry onions until golden (7 min), add garlic for 1 minute, then add eggplant and stir 3 minutes.</div></div>
+        <div class="step"><div class="step-n">3</div><div class="step-t">Add cassava leaves and stock. Bring to a boil then simmer covered for 25–30 minutes, stirring occasionally until leaves are tender.</div></div>
+        <div class="step"><div class="step-n">4</div><div class="step-t">Stir in groundnut paste, cook uncovered 5 more minutes until thick and rich. Season well. Serve hot with ugali or sweet potato.</div></div>
+      </div>
+    </div>
+
+    <!-- ASIDE -->
+    <div>
+      <div class="aside-video">
+        <video controls poster="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&q=70">
+          <source src="images/isombe.mp4" type="video/mp4" />
+        </video>
+        <div class="aside-video-label"><span class="play-ico">▶</span> Isombe — Rwandan Recipe</div>
+      </div>
+
+      <div class="aside-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988816.5!2d29.873888!3d-1.944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c29654e73840e3%3A0x6cc4b6b4c7a1a2f0!2sRwanda!5e0!3m2!1sen!2sus!4v1699000000010" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="nutrition-box">
+        <div class="nutrition-head">Country of Origin</div>
+        <div class="nut-row"><span>Calories</span><span class="nut-val">210 kcal</span></div>
+        <div class="nut-row"><span>Carbs</span><span class="nut-val">18g</span></div>
+        <div class="nut-row"><span>Protein</span><span class="nut-val">9g</span></div>
+        <div class="nut-row"><span>Fat</span><span class="nut-val">12g</span></div>
+        <div class="nut-row"><span>Fibre</span><span class="nut-val">5g</span></div>
+        <div class="nut-row"><span>Iron</span><span class="nut-val">4.2mg</span></div>
+      </div>
+
+      <div class="ingr-box">
+        <div class="ingr-box-head">Ingredients</div>
+        <ul>
+          <li>500g cassava leaves</li>
+          <li>1 medium eggplant, cubed</li>
+          <li>3 tbsp groundnut paste</li>
+          <li>1 large onion, chopped</li>
+          <li>4 cloves garlic, minced</li>
+          <li>2 tbsp palm oil</li>
+          <li>1 cup vegetable stock</li>
+          <li>Dried smoked fish (optional)</li>
+          <li>Salt and black pepper</li>
+        </ul>
+      </div>
+
+      <button class="fav-btn" data-id="isombe"><span class="heart">♡</span><span class="fav-label">Save to My Collection</span></button>
+    </div>
+
+  </div>
+</div>
+
+<div class="parchment-bg" style="padding:2rem 0;">
+  <div class="container"><div class="newsletter-inner">
+    <span class="newsletter-label">Subscribe to Our Newsletter</span>
+  </div>
+  <div class="newsletter-inner" style="margin-top:0.8rem;">
+    <span class="newsletter-label" style="font-family:var(--font-ui);font-size:0.9rem;">Email:</span>
+    <input type="email" class="newsletter-input" placeholder="Enter your email" />
+    <button class="btn btn-red">Subscribe</button>
+  </div></div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div><a href="index.html" class="footer-logo">Tastes <em>of</em> Africa</a><p class="footer-desc">Curated by Onyx · onyx@tasteofafrica.com</p></div>
+      <div class="footer-col"><h4>Recipes</h4><ul><li><a href="isombe.html">Rwandan Isombe</a></li><li><a href="braai.html">South African Braai</a></li><li><a href="suqaar.html">Somali Suqaar</a></li><li><a href="kelewele.html">Ghanaian Kelewele</a></li></ul></div>
+      <div class="footer-col"><h4>Countries</h4><ul><li><a href="regions.html#rwanda">Rwanda</a></li><li><a href="regions.html#southafrica">South Africa</a></li><li><a href="regions.html#somalia">Somalia</a></li><li><a href="regions.html#ghana">Ghana</a></li></ul></div>
+      <div class="footer-col"><h4>Onyx Studio</h4><ul><li><a href="about.html">About Onyx</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2024 Tastes of Africa — Curated by Onyx</span>
+      <div class="social-icons">
+        <a href="#" class="social-icon">f</a><a href="#" class="social-icon">t</a>
+        <a href="#" class="social-icon">in</a><a href="mailto:onyx@tasteofafrica.com" class="social-icon">@</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+function toggleExp(bodyId, rowId) {
+  const body = document.getElementById(bodyId);
+  const row  = document.getElementById(rowId);
+  body.classList.toggle('open');
+  row.classList.toggle('open');
+}
+</script>
+</body>
+</html>
