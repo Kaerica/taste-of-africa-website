@@ -25,7 +25,7 @@ taste-of-africa-website/
 ## Features Implemented
 
 ### 1. HTML Pages ✓
-- **index.html**: Hero section with embedded YouTube video, featured dishes with figure/figcaption, explore by region cards, trending food articles
+- **index.html**: Hero section with local intro video (`videos/introd.mp4`), featured dishes with figure/figcaption, explore by region cards, trending food articles
 - **recipes.html**: 9 recipe cards with data-region attributes for filtering, favorite buttons on each card
 - **jollof.html, tagine.html, injera.html**: Complete recipe pages with:
   - Dish description and cultural context

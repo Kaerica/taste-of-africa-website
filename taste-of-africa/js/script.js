@@ -14,6 +14,25 @@ document.addEventListener('DOMContentLoaded', () => {
     if (a.getAttribute('href') === page) a.classList.add('active');
   });
 
+  /* NEWSLETTER SUBSCRIBE (front-end only) */
+  const emailRegex = /^[\\w.!#$%&'*+/=?`{|}~-]+@[\\w-]+(\\.[\\w-]+)+$/;
+  const handleSubscribe = (input) => {
+    const email = (input.value || '').trim();
+    if (!email || !emailRegex.test(email)) {
+      alert('Please enter a valid email to subscribe.');
+      return;
+    }
+    alert('Thanks for subscribing! We will be in touch at ' + email);
+    input.value = '';
+  };
+  document.querySelectorAll('.newsletter-inline').forEach(form => {
+    const input = form.querySelector('input[type=\"email\"]');
+    const btn   = form.querySelector('button');
+    if (btn && input) {
+      btn.addEventListener('click', (e) => { e.preventDefault(); handleSubscribe(input); });
+    }
+  });
+
   /* RECIPE FILTER */
   const rfbBtns = document.querySelectorAll('.rfb-btn');
   const rcards  = document.querySelectorAll('.rcard');
